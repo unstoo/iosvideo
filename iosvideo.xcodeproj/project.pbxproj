@@ -13,6 +13,9 @@
 		AE95216B2A4B277A0054177D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9521692A4B277A0054177D /* Main.storyboard */; };
 		AE95216D2A4B277C0054177D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE95216C2A4B277C0054177D /* Assets.xcassets */; };
 		AE9521702A4B277C0054177D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE95216E2A4B277C0054177D /* LaunchScreen.storyboard */; };
+		AE9521782A4B36CA0054177D /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9521772A4B36CA0054177D /* Env.swift */; };
+		AE95217A2A4B3A290054177D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9521792A4B3A290054177D /* Video.swift */; };
+		AE95217C2A4B3A690054177D /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95217B2A4B3A690054177D /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AE95216C2A4B277C0054177D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE95216F2A4B277C0054177D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE9521712A4B277C0054177D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9521772A4B36CA0054177D /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		AE9521792A4B3A290054177D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AE95217B2A4B3A690054177D /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				AE95216C2A4B277C0054177D /* Assets.xcassets */,
 				AE95216E2A4B277C0054177D /* LaunchScreen.storyboard */,
 				AE9521712A4B277C0054177D /* Info.plist */,
+				AE9521772A4B36CA0054177D /* Env.swift */,
+				AE9521792A4B3A290054177D /* Video.swift */,
+				AE95217B2A4B3A690054177D /* VideoModel.swift */,
 			);
 			path = iosvideo;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9521682A4B277A0054177D /* ViewController.swift in Sources */,
+				AE95217C2A4B3A690054177D /* VideoModel.swift in Sources */,
 				AE9521642A4B277A0054177D /* AppDelegate.swift in Sources */,
 				AE9521662A4B277A0054177D /* SceneDelegate.swift in Sources */,
+				AE9521782A4B36CA0054177D /* Env.swift in Sources */,
+				AE95217A2A4B3A290054177D /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
